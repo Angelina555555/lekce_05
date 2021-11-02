@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+}
+
+/* Pro výběr barev můžeš použít např: https://imagecolorpicker.com/
+Pro vygenerování stínu pro tlačítko můžeš použít např: https://cssgenerator.org/box-shadow-css-generator.html */
+
+/* Tady je místo pro tvůj kód */
+
+body {
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #d6e1ff;
+}
+
+.main-img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0 0;
+}
+
+.payment {
+  background-color: #382ae1;
+  width: 400px;
+  padding: 1rem 4rem;
+  border-radius: 10px;
+  color: white;
+  font-weight: 800;
+  box-shadow: 1px 24px 34px 0 rgba(198, 194, 241, 0.82);
+}
+
+.payment:hover {
+  cursor: pointer;
+  background-color: #746bf1;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+  color: #263050;
+  font-weight: 900;
+}
+
+.container {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+img.icon {
+  position: relative;
+  margin-top: 20px;
+}
+
+.order-summary {
+  width: 450px;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+.order {
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fe;
+  margin: 1.5rem 0;
+  width: 400px;
+  border-radius: 10px;
+  justify-content: space-around;
+  height: 5rem;
+}
+
+p {
+  color: #a3a7bb;
+  line-height: 1.5;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1rem;
+  font-weight: 900;
+  margin: 0.5rem;
+}
+
+.cena {
+  color: #a3a7bb;
+}
+
+.cancel {
+  border-radius: 20%;
+  color: #949bac;
+  font-weight: 900;
+  margin-top: 10px;
+}
+
+.plan {
+  color: #434c64;
+  font-weight: 900;
+}
+
+.change {
+  font-size: 0.9rem;
+  color: #5349b4;
+  text-decoration: underline;
+}
+
+.change:hover {
+  cursor: pointer;
+  color: #746bf1;
+}
+
+.cancel {
+  color: #949bac;
+  padding: 1rem 4rem;
+  margin-bottom: 1rem;
+}
+
+.cancel:hover {
+  cursor: pointer;
+}
+
+.text {
+  font-weight: 600;
+  width: 90%;
+}

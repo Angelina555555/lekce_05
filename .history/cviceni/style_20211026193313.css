@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+}
+
+/* Pro výběr barev můžeš použít např: https://imagecolorpicker.com/
+Pro vygenerování stínu pro tlačítko můžeš použít např: https://cssgenerator.org/box-shadow-css-generator.html */
+
+/* Tady je místo pro tvůj kód */
+
+body {
+  text-align: center;
+  margin-top: 100px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #d6e1ff;
+  text-align: center;
+  justify-content: center;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+img.top {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 30px;
+}
+
+section.plan {
+  margin: 10px;
+  padding: 10px;
+}
+
+section.Payment {
+  margin: 10px;
+  padding: 10px;
+}
+
+section.Cancel {
+  margin: 10px;
+  padding: 10px;
+}
+
+h1 {
+  margin: 10px;
+  padding: 10px;
+}
